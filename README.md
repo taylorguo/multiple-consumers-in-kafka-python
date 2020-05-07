@@ -25,3 +25,4 @@ Reference:
 [kafka重复消费问题](https://blog.csdn.net/qq_39470733/article/details/89680758)
 
 
+[Kafka中的消息是否会丢失和重复消费](https://blog.csdn.net/u012050154/article/details/78592854)
