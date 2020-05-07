@@ -26,3 +26,6 @@ Reference:
 
 
 [Kafka中的消息是否会丢失和重复消费](https://blog.csdn.net/u012050154/article/details/78592854)
+
+
+[Kafka深度解析](http://www.jasongj.com/2015/01/02/Kafka%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/)
