@@ -1,0 +1,3 @@
+include:
+  - "https://xxx/gitlab-ci/base/.gitlab-ci.yml"
+  - "https://xxx/gitlab-ci/repos-innotechx/1395.gitlab-ci.yml"

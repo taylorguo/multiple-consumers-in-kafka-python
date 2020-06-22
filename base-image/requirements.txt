@@ -1,0 +1,28 @@
+https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cuda10-linux/numpy-1.16.0-cp36-cp36m-manylinux1_x86_64.whl
+https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cuda10-linux/torch-1.1.0-cp36-cp36m-linux_x86_64.whl
+torchvision==0.2.2
+# https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cpu-linux/tensorflow-1.13.1-cp36-cp36m-manylinux1_x86_64.whl
+https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cuda10-linux/tensorflow_gpu-1.13.1-cp36-cp36m-manylinux1_x86_64.whl
+# tensorflow-gpu==1.13.1
+Keras==2.2.4
+# tensorflow==1.13.1
+#numpy==1.16.0
+https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cpu-linux/Pillow-6.0.0-cp36-cp36m-manylinux1_x86_64.whl
+https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cpu-linux/matplotlib-3.2.1-cp36-cp36m-manylinux1_x86_64.whl
+https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cpu-linux/pycryptodome-3.9.7-cp36-cp36m-manylinux1_x86_64.whl
+prometheus-client==0.7.1
+requests==2.22.0
+tqdm==4.19.9
+oss2==2.8.0
+kafka-python==1.4.7
+PyYAML==5.1.2
+# opencv-python==3.4.5.20
+https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cpu-linux/opencv_python-3.4.5.20-cp36-cp36m-manylinux1_x86_64.whl
+# scipy==1.2.1
+https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cpu-linux/scipy-1.2.1-cp36-cp36m-manylinux1_x86_64.whl
+pymysql==0.9.3
+kafka-python==1.4.7
+# scikit-image==0.14.2
+https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cpu-linux/scikit_image-0.14.2-cp36-cp36m-manylinux1_x86_64.whl
+pandas==0.25.1
+pretrainedmodels

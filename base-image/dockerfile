@@ -1,0 +1,17 @@
+FROM registry.qtt6.cn/innotechxdc/cuda10_cudnn7_ubuntu1604_python36:v0
+WORKDIR /usr/app
+RUN mkdir -p /root/.cache/torch/checkpoints/ && apt-get install -y wget && wget -P /root/.cache/torch/checkpoints/ https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/models/vgg19-dcbb9e9d.pth
+RUN mkdir -p /root/.keras/models && wget -P /root/.keras/models https://guoyufeng.oss-cn-shanghai.aliyuncs.com/code-2020/models/xception_weights_tf_dim_ordering_tf_kernels_notop.h5
+RUN apt-get install -y locales locales-all
+ENV LC_ALL en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US.UTF-8
+ENV PYTHONUNBUFFERED 0
+ENV NVIDIA_VISIBLE_DEVICES all
+
+# ENV key=value
+# set DB, Kafka, OSS 
+
+ADD ./requirements.txt ./
+RUN pip3 install -r requirements.txt -i https://pypi.douban.com/simple --ignore-installed && mkdir -p /data
+
