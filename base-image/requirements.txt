@@ -15,7 +15,7 @@ requests==2.22.0
 tqdm==4.19.9
 oss2==2.8.0
 kafka-python==1.4.7
-PyYAML==5.1.2
+PyYAML==5.4
 # opencv-python==3.4.5.20
 https://guoyufeng.oss-cn-shanghai.aliyuncs.com/tools/cpu-linux/opencv_python-3.4.5.20-cp36-cp36m-manylinux1_x86_64.whl
 # scipy==1.2.1
